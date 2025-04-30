@@ -1,5 +1,6 @@
-'use client'
+"use client";
 
+import Image from "next/image";
 import {
   FaUniversity,
   FaPlane,
@@ -7,7 +8,7 @@ import {
   FaGlobeAmericas,
   FaBookOpen,
   FaHandshake,
-} from 'react-icons/fa'
+} from "react-icons/fa";
 
 export default function ServicesSecOne() {
   return (
@@ -19,7 +20,7 @@ export default function ServicesSecOne() {
             From Application to Arrival,
           </h2>
           <h2 className="text-4xl md:text-6xl font-bold text-red-200 mt-3">
-            We've got you covered!
+            We have got you covered!
           </h2>
 
           {/* Centered Icon Bar below headings */}
@@ -34,14 +35,17 @@ export default function ServicesSecOne() {
         </div>
 
         {/* Right Image Section */}
-        <div className="flex-1">
-          <img
+        <div className="flex-1 relative w-full h-auto">
+          <Image
             src="/images/holewd.png"
             alt="Consulting Visual"
-            className="w-full h-auto object-contain"
+            layout="responsive"
+            width={800} // adjust width based on your design
+            height={500} // adjust height based on your design
+            className="object-contain"
           />
         </div>
       </div>
     </section>
-  )
+  );
 }

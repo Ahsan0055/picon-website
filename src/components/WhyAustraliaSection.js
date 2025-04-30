@@ -46,7 +46,7 @@ export default function WhyAustraliaSection() {
             <br /><br />
             Students benefit from a practical and research-driven curriculum, excellent support services, and a safe environment. With strong post-study work opportunities, scholarships, and a high standard of living, Australia attracts thousands of students every year.
             <br /><br />
-            Whether you're interested in business, engineering, health sciences, or the arts, Australia provides numerous options to pursue your dreams. The multicultural atmosphere makes it easier to adapt and thrive both academically and socially.
+            Whether you are interested in business, engineering, health sciences, or the arts, Australia provides numerous options to pursue your dreams. The multicultural atmosphere makes it easier to adapt and thrive both academically and socially.
           </p>
         </div>
       </div>

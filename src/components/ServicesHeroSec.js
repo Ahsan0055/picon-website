@@ -16,7 +16,7 @@ const services = [
   },
   {
     title: "Pre-Departure Guidelines",
-    text: "PICON provides detailed pre-departure briefings to ensure you’re fully prepared for your journey. From travel arrangements to understanding local customs, we cover everything you need to know before leaving for your study destination.",
+    text: "PICON provides detailed pre-departure briefings to ensure you are fully prepared for your journey. From travel arrangements to understanding local customs, we cover everything you need to know before leaving for your study destination.",
     image: "/images/servic.jpg",
   },
   {
@@ -36,7 +36,7 @@ const services = [
   },
   {
     title: "OSHC Arrangements",
-    text: "We help you arrange Overseas Student Health Cover (OSHC) to meet the mandatory health insurance requirements for international students. Our service ensures you’re covered throughout your stay, giving you peace of mind while studying abroad.",
+    text: "We help you arrange Overseas Student Health Cover (OSHC) to meet the mandatory health insurance requirements for international students. Our service ensures you are covered throughout your stay, giving you peace of mind while studying abroad.",
     image: "/images/servig.jpg",
   },
 ];
@@ -50,7 +50,7 @@ export default function ServicesHeroSec() {
         </h2>
         <p className="text-gray-700 text-lg md:text-xl leading-relaxed max-w-4xl mx-auto">
           At our consultancy, we believe every student has a unique journey.
-          That’s why we offer personalized guidance tailored to your individual
+          Thats why we offer personalized guidance tailored to your individual
           goals. From career counseling to post-arrival support, we ensure your
           transition is smooth, successful, and fulfilling.
         </p>
@@ -78,20 +78,26 @@ export default function ServicesHeroSec() {
                   src={service.image}
                   alt={service.title}
                   width={600}
-                  height={300}
-                  className="rounded-lg shadow-lg w-full h-[300px] object-cover"
+                  height={400}
+                  className="rounded-lg shadow-lg w-full h-auto object-cover"
+                  style={{ aspectRatio: "16/9" }}
                 />
               </motion.div>
 
               {/* Text */}
-              <div className="md:w-1/2 w-full">
+              <motion.div
+                className="md:w-1/2 w-full"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+              >
                 <h3 className="text-4xl font-semibold text-blue-700 mb-4">
                   {service.title}
                 </h3>
                 <p className="text-gray-700 text-lg leading-relaxed">
                   {service.text}
                 </p>
-              </div>
+              </motion.div>
             </div>
           );
         })}

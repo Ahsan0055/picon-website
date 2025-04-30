@@ -17,7 +17,7 @@ export default function StudyCanadaSection() {
               Pakistani Students Admission to Canadian Institutions:
             </h3>
             <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-              Admission to Canadian colleges and universities from Pakistan has seen a significant rise due to Canada's reputation for academic excellence and inclusiveness. Institutions offer globally recognized degrees and career-oriented programs across diverse fields.
+              Admission to Canadian colleges and universities from Pakistan has seen a significant rise due to Canada is reputation for academic excellence and inclusiveness. Institutions offer globally recognized degrees and career-oriented programs across diverse fields.
               <br /><br />
               The application process generally includes academic transcripts, English or French proficiency scores (like IELTS, TOEFL, or TEF), a statement of purpose, and reference letters. Some programs may also require a portfolio or entrance exam.
             </p>

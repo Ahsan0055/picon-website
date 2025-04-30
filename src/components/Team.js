@@ -31,7 +31,7 @@ export default function TeamPage() {
             Muhammad Naqash, the visionary CEO of our company, brings over 14 years of unmatched expertise in the fields of education consultancy and immigration services. With a deep commitment to guiding students and professionals towards successful international opportunities, he has earned a reputation for integrity, excellence, and personalized support. Under his leadership, our consultancy has helped thousands of individuals achieve their academic and career goals across the globe. His vast experience, strategic insight, and passion for empowering others continue to drive the company’s growth and success.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              As a leader, the CEO is focused on driving innovation, improving operational efficiency, and ensuring that the company maintains a strong presence in the international education industry. Their passion for education is evident in every decision made to further the company's goals.
+              As a leader, the CEO is focused on driving innovation, improving operational efficiency, and ensuring that the company maintains a strong presence in the international education industry. Their passion for education is evident in every decision made to further the companys goals.
             </p>
           </div>
           <div className="md:w-2/5 w-full relative">
@@ -91,7 +91,7 @@ export default function TeamPage() {
             Abdul Wahab is the Marketing Manager at our company, bringing over 5 years of valuable experience in education consultancy, visit visa assistance, and immigration services. With a deep understanding of international education systems and global travel requirements, he has successfully guided countless students and clients in achieving their study and travel goals. Abdul Wahab is known for his strategic marketing vision, client-focused approach, and commitment to delivering exceptional service. His expertise and leadership play a vital role in promoting our services and expanding our reach globally.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              They are also responsible for organizing events, campaigns, and partnerships to further strengthen the brand's recognition. Their creative approach and strategic thinking help create impactful marketing campaigns that resonate with our audience.
+              They are also responsible for organizing events, campaigns, and partnerships to further strengthen the brands recognition. Their creative approach and strategic thinking help create impactful marketing campaigns that resonate with our audience.
             </p>
           </div>
           <div className="md:w-2/5 w-full relative">

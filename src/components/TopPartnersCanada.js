@@ -24,7 +24,7 @@ export default function TopPartnersCanada() {
       <div className="overflow-hidden relative w-full">
         <div className="animate-scroll flex gap-10 w-max">
           {logos.concat(logos).map((logo, index) => (
-           <div className="w-[240px] h-[160px] md:w-[360px] md:h-[240px] relative">
+           <div key={index} className="w-[240px] h-[160px] md:w-[360px] md:h-[240px] relative">
            <Image
              src={logo}
              alt={`Logo ${index + 1}`}

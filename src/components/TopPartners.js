@@ -23,16 +23,18 @@ export default function TopPartners() {
       {/* Scrolling Slider */}
       <div className="overflow-hidden relative w-full">
         <div className="animate-scroll flex gap-10 w-max">
-          {logos.concat(logos).map((logo, index) => (
-           <div className="w-[240px] h-[160px] md:w-[360px] md:h-[240px] relative">
-           <Image
-             src={logo}
-             alt={`Logo ${index + 1}`}
-             fill
-             className="object-contain"
-           />
-         </div>
-         
+          {logos.map((logo, index) => (
+            <div
+              key={index}
+              className="w-[240px] h-[160px] md:w-[360px] md:h-[240px] relative"
+            >
+              <Image
+                src={logo}
+                alt={`Logo ${index + 1}`}
+                fill
+                className="object-contain"
+              />
+            </div>
           ))}
         </div>
       </div>

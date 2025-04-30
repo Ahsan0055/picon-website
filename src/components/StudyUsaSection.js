@@ -40,7 +40,7 @@ export default function StudyUsaSection() {
               Work Opportunities for International Students:
             </h3>
             <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-              International students in the U.S. are allowed to work on-campus up to 20 hours per week during semesters. Optional Practical Training (OPT) and Curricular Practical Training (CPT) also offer off-campus work opportunities related to a student's field of study, especially in STEM programs which can extend OPT up to 36 months.
+              International students in the U.S. are allowed to work on-campus up to 20 hours per week during semesters. Optional Practical Training (OPT) and Curricular Practical Training (CPT) also offer off-campus work opportunities related to a students field of study, especially in STEM programs which can extend OPT up to 36 months.
             </p>
           </div>
 

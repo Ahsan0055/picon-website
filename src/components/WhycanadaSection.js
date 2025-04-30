@@ -55,7 +55,7 @@ export default function WhyCanadaSection() {
             international students.
             <br />
             <br />
-            Whether you're pursuing studies in business, technology, healthcare,
+            Whether you are pursuing studies in business, technology, healthcare,
             or the arts, Canada provides a wide range of programs to help you
             achieve your academic and career goals. Its inclusive and diverse
             communities help students feel at home and thrive both personally

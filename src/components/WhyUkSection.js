@@ -55,7 +55,7 @@ export default function WhyAustraliaSection() {
             around the world.
             <br />
             <br />
-            Whether you're interested in business, engineering, healthcare, or
+            Whether you are interested in business, engineering, healthcare, or
             the arts, the UK provides a wide range of programs to help you
             achieve your academic and professional goals. Its multicultural
             environment ensures a welcoming and enriching experience both inside

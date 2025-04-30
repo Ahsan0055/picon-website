@@ -46,7 +46,7 @@ export default function StudyTabsUsa() {
               STEM (Science, Technology, Engineering, Math) graduates are eligible for up to 3 years of OPT, opening doors to top employers in tech, engineering, and healthcare.
             </li>
             <li>
-              Business, Finance, and Management students have access to some of the world's biggest corporations and startup ecosystems, especially in cities like New York, San Francisco, and Chicago.
+              Business, Finance, and Management students have access to some of the worlds biggest corporations and startup ecosystems, especially in cities like New York, San Francisco, and Chicago.
             </li>
             <li>
               The U.S. healthcare industry continues to grow rapidly, creating strong demand for international graduates in areas like nursing, public health, and biomedical sciences.
@@ -65,7 +65,7 @@ export default function StudyTabsUsa() {
             </h3>
             <ul className="list-disc list-inside space-y-2">
               <li>Undergraduate programs: Completion of Higher Secondary School Certificate (HSSC) or A-Levels with competitive grades.</li>
-              <li>Graduate programs: A recognized bachelor’s degree with a strong GPA and relevant academic background.</li>
+              <li>Graduate programs: A recognized bachelors degree with a strong GPA and relevant academic background.</li>
               <li>Standardized tests: SAT/ACT for undergraduates; GRE/GMAT for graduate programs (may be optional depending on university).</li>
             </ul>
 
