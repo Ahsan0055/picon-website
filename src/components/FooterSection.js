@@ -14,8 +14,8 @@ export default function FooterSection() {
       <div className="flex flex-col md:flex-row md:justify-between gap-12 border-b border-gray-700 pb-16">
         {/* Left Section */}
         <div className="md:w-1/3 space-y-4">
-          <h4 className="text-xl font-bold text-yellow-200">
-            Lahore – Dharam Pure
+          <h4 className="text-2xl font-bold text-yellow-200">
+            Lahore
           </h4>
           <div className="flex items-start gap-2">
             <MapPin className="text-yellow-200" />
@@ -33,16 +33,16 @@ export default function FooterSection() {
 
         {/* Center Section */}
         <div className="md:w-1/3 space-y-4">
-          <h4 className="text-xl font-bold text-yellow-200">
-            Austrailia – Melbourne
+          <h4 className="text-2xl font-bold text-yellow-200">
+            Austrailia
           </h4>
           <div className="flex items-start gap-2">
             <MapPin className="text-yellow-200" />
-            <p>4/51 Denmen Avenue Wiley Park sydney NSW 2195 Australia</p>
+            <p>51 Denmen Avenue Wiley Park Sydney NSW 2195 Australia</p>
           </div>
           <div className="flex items-center gap-2">
             <Phone className="text-yellow-200" />
-            <p>+92 309 1052430</p>
+            <p>+61 401 636 450</p>
           </div>
           <div className="flex items-center gap-2">
             <Mail className="text-yellow-200" />
@@ -51,7 +51,7 @@ export default function FooterSection() {
         </div>
 
         {/* Right Section */}
-        <div className="md:w-1/3 space-y-4">
+        {/* <div className="md:w-1/3 space-y-4">
           <h4 className="text-xl font-bold text-yellow-200">Islamabad – F7</h4>
           <div className="flex items-start gap-2">
             <MapPin className="text-yellow-200" />
@@ -65,7 +65,7 @@ export default function FooterSection() {
             <Mail className="text-yellow-200" />
             <p>info@picon.com.au</p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Bottom Footer - Four Columns */}
@@ -128,7 +128,7 @@ export default function FooterSection() {
       {/* Footer Bottom Line and Social Icons */}
      {/* Footer Bottom Line and Social Icons */}
      <div className="h-[10px] border-t border-gray-700 flex flex-col md:flex-row justify-between items-center pt-6 px-4 text-sm text-gray-400 gap-4">
-  <p className="text-sm leading-none">Design By MARB.</p>
+  {/* <p className="text-sm leading-none">Design By MARB.</p> */}
   <div className="flex gap-3">
     <a
       href="https://www.facebook.com/share/r/1BiUbNN8ZF/"

@@ -1,4 +1,4 @@
-import TopBar from '../components/TopBar'
+// import TopBar from '../components/TopBar'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
 import WhoWeAreSection from '@/components/WhoWeAreSection'
