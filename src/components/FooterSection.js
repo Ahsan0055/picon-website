@@ -46,7 +46,7 @@ export default function FooterSection() {
           </div>
           <div className="flex items-center gap-2">
             <Mail className="text-yellow-200" />
-            <p>info@picon.com.au</p>
+            <p>premier@picon.com.au</p>
           </div>
         </div>
 
