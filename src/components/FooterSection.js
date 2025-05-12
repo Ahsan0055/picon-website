@@ -34,7 +34,7 @@ export default function FooterSection() {
         {/* Center Section */}
         <div className="md:w-1/3 space-y-4">
           <h4 className="text-2xl font-bold text-yellow-200">
-            Austrailia
+            Australia
           </h4>
           <div className="flex items-start gap-2">
             <MapPin className="text-yellow-200" />
