@@ -3,7 +3,6 @@ import "./globals.css";
 import Navbar from '../components/Navbar';
 import FooterSection from '@/components/FooterSection';
 import FloatingWhatsAppButton from '@/components/FloatingWhatsAppButton';
-import Head from 'next/head';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +21,7 @@ export const metadata = {
   },
   description: "We help students study abroad in the UK, Australia, Canada, and USA.",
   keywords: "Study Abroad, Visa Application, Immigration, UK, Australia, Canada, USA",
-  metadataBase: new URL("https://picon.com.au"), // Updated to your real domain
+  metadataBase: new URL("https://picon.com.au"),
   openGraph: {
     title: "PICON Education & Visa Services",
     description: "Helping students achieve international education dreams.",
@@ -30,7 +29,7 @@ export const metadata = {
     siteName: "PICON",
     images: [
       {
-        url: "https://picon.com.au/images/logo-remove.png", // Updated to point to the correct path
+        url: "https://picon.com.au/images/logo-remove.png",
         width: 800,
         height: 600,
         alt: "PICON Logo",
@@ -42,19 +41,23 @@ export const metadata = {
     card: "summary_large_image",
     title: "PICON Education & Visa Services",
     description: "Helping students achieve international education dreams.",
-    images: ["https://picon.com.au/images/logo-remove.png"], // Updated to the correct path
+    images: ["https://picon.com.au/images/logo-remove.png"],
   },
   robots: {
     index: true,
     follow: true,
+  },
+  // ✅ Favicon setup
+  icons: {
+    icon: "/images/logo-remove.png", // path relative to public/
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        {/* JSON-LD Structured Data */}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* ✅ JSON-LD structured data inside <body> is fine */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -62,8 +65,8 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "PICON Education & Visa Services",
-              url: "https://picon.com.au", // Updated to your real domain
-              logo: "https://picon.com.au/images/logo-remove.png", // Updated to the correct path
+              url: "https://picon.com.au",
+              logo: "https://picon.com.au/images/logo-remove.png",
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+92 309 1052430",
@@ -72,16 +75,8 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
-      </Head>
-
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-       
         <Navbar />
-        <div className="pt-20">
-          {children}
-        </div>
+        <div className="pt-20">{children}</div>
         <FooterSection />
         <FloatingWhatsAppButton />
       </body>
