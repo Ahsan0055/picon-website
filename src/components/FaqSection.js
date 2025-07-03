@@ -11,7 +11,7 @@ const faqData = [
   {
     question: 'How can I book an appointment with a PICON counsellor for admission?',
     answer:
-      'You may reach out to our QEAC certified counsellor through our website, call, whatsapp, video meeting or social media channels. You may also visit your nearest StudyShed office in Pakistan.',
+      'You may reach out to our QEAC certified counsellor through our website, call, whatsapp, video meeting or social media channels. You may also visit your nearest PICON office in Pakistan.',
   },
   {
     question: 'How much does it cost for a counselling appointment at PICON ?',

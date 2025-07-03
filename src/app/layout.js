@@ -19,12 +19,12 @@ export const metadata = {
     default: "PICON Education & Visa Services",
     template: "%s | PICON",
   },
-  description: "We help students study abroad in the UK, Australia, Canada, and USA.",
-  keywords: "Study Abroad, Visa Application, Immigration, UK, Australia, Canada, USA",
+  description: "We help students study abroad in the UK, Australia, Canada, and USA. Also known as Premier International Consultants.",
+  keywords: "Study Abroad, Visa Application, Immigration, UK, Australia, Canada, USA, Premier International Consultants, PICON",
   metadataBase: new URL("https://picon.com.au"),
   openGraph: {
-    title: "PICON Education & Visa Services",
-    description: "Helping students achieve international education dreams.",
+    title: "PICON Education & Visa Services | Premier International Consultants",
+    description: "Helping students achieve international education dreams. Also known as Premier International Consultants.",
     url: "https://picon.com.au",
     siteName: "PICON",
     images: [
@@ -39,7 +39,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "PICON Education & Visa Services",
+    title: "PICON Education & Visa Services | Premier International Consultants",
     description: "Helping students achieve international education dreams.",
     images: ["https://picon.com.au/images/logo-remove.png"],
   },
@@ -47,9 +47,8 @@ export const metadata = {
     index: true,
     follow: true,
   },
-  // ✅ Favicon setup
   icons: {
-    icon: "/images/logo-remove.png", // path relative to public/
+    icon: "/images/logo-remove.png",
   },
 };
 
@@ -57,7 +56,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {/* ✅ JSON-LD structured data inside <body> is fine */}
+        {/* ✅ JSON-LD structured data updated */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -65,6 +64,7 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "PICON Education & Visa Services",
+              alternateName: "Premier International Consultants",
               url: "https://picon.com.au",
               logo: "https://picon.com.au/images/logo-remove.png",
               contactPoint: {
