@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 
 export default function TopPartnersCanada() {
   const logos = Array.from(
-    { length: 35 },
-    (_, i) => `/images/unilogo${i + 1}.png`
+    { length: 7 },
+    (_, i) => `/images/unilogocan${i + 1}.jpeg`
   );
 
   return (
