@@ -38,7 +38,7 @@ export default function FooterSection() {
           </h4>
           <div className="flex items-start gap-2">
             <MapPin className="text-yellow-200" />
-            <p>6/41 Auburn Village Center Auburn Road Sydney Australia 2144</p>
+            <p>406 Collin street Melbourne Australia 3004</p>
           </div>
           <div className="flex items-center gap-2">
             <Phone className="text-yellow-200" />
