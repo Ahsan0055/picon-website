@@ -48,7 +48,7 @@ export const metadata = {
     follow: true,
   },
   icons: {
-    icon: "/images/logo-remove.png",
+    icon: "/favicon.png",
   },
 };
 
