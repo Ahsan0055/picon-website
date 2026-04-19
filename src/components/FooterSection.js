@@ -85,7 +85,7 @@ export default function FooterSection() {
 
         {/* Column 2: Authorizations */}
         <div>
-          <h4 className="text-xl font-bold mb-4 text-white">Authorized By</h4>
+          <h4 className="text-xl font-bold mb-4 text-white">Accredited By</h4>
           <div className="mt-4">
             <span id="iasBadge" data-account-id="6498"></span>
             <Script

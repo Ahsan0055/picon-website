@@ -9,7 +9,7 @@ const destinations = [
   { name: 'France', image: '/images/france.jpg' },
   { name: 'NewZealand', image: '/images/newze.jpg' },
   { name: 'Malaysia', image: '/images/malaysia.jpg' },
-  { name: 'Ireland', image: '/images/ireland.jpg' },
+  { name: 'Italy', image: '/images/ireland.jpg' },
   { name: 'Dubai', image: '/images/dubai.jpg' },
 ]
 
